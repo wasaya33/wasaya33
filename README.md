@@ -1,89 +1,108 @@
 <h1 align="center">Hi 👋, I'm Allah Wasaya</h1>
-<h3 align="center">Full Stack Developer | MERN Stack | React.js | Node.js</h3>
+
+<h3 align="center">
+🚀 Full Stack Developer | MERN Stack Developer | Building Scalable Web Applications
+</h3>
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" width="180" alt="Profile Avatar"/>
+I'm a passionate Full Stack Developer who enjoys turning ideas into real-world applications.
+I specialize in React.js, Node.js, Express.js and MongoDB while constantly exploring modern technologies.
 </p>
 
 <p align="center">
-  Passionate Full Stack Developer with hands-on experience in building scalable web applications using the MERN Stack.
-  I enjoy solving real-world problems, writing clean code, and continuously learning modern web technologies.
+<a href="https://github.com/wasaya33">
+<img src="https://img.shields.io/github/followers/wasaya33?label=Followers&style=for-the-badge">
+</a>
+
+<img src="https://img.shields.io/badge/Open%20to-Work-success?style=for-the-badge">
+
+<img src="https://komarev.com/ghpvc/?username=wasaya33&style=for-the-badge">
 </p>
 
 ---
 
-## 🚀 About Me
+# 👨‍💻 About Me
 
-- 🎓 Bachelor's in Computer Science
-- 💻 Full Stack Developer (MERN Stack)
-- 🌱 Currently learning Next.js, Docker & AWS
-- 🔭 Working on **Smart Hostel Hunt**
-- 👨‍💻 Building production-ready web applications
-- 📫 Email: **awasaya058@gmail.com**
-- 🌍 Location: Lahore, Pakistan
+- 💼 Full Stack (MERN) Developer
+- 🌱 Currently learning **Next.js, Docker & AWS**
+- 🚀 Building modern web applications
+- 💡 Love solving real-world problems
+- 📍 Pakistan
+- 📫 **awasaya058@gmail.com**
 
 ---
 
-## 🛠 Tech Stack
+# 🚀 Tech Stack
 
 ### Frontend
-- React.js
-- Next.js
-- JavaScript (ES6+)
-- HTML5
-- CSS3
-- Tailwind CSS
-- Bootstrap
-- Material UI
+
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,bootstrap,materialui" />
+</p>
 
 ### Backend
-- Node.js
-- Express.js
-- REST API
-- JWT Authentication
 
-### Database
-- MongoDB
-- Mongoose
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase" />
+</p>
+
+### Languages
+
+<p>
+<img src="https://skillicons.dev/icons?i=javascript,cpp" />
+</p>
 
 ### Tools
-- Git
-- GitHub
-- VS Code
-- Postman
-- Firebase
-- Cloudinary
-- Vercel
-- Netlify
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel,netlify" />
+</p>
 
 ---
 
-## 📌 Featured Projects
+# 🔥 Featured Projects
 
 ### 🏨 Smart Hostel Hunt
-A MERN Stack application that helps students find hostels near universities with maps, filtering, booking, reviews and owner management.
 
-### 🛒 Shopping Store
-Modern E-commerce website with authentication, shopping cart and responsive UI.
-
-### ✅ Task Manager
-Task management application with authentication and CRUD operations.
-
-### 🔐 JWT Authentication
-Secure authentication system using JWT, bcrypt and Express.
-
-### 🚗 ParkMate
-Parking management web application.
+A complete MERN Stack platform helping students find hostels near universities with filtering, booking, maps and reviews.
 
 ---
 
-## 📊 GitHub Stats
+### 🛒 Shopping Store
+
+Modern E-Commerce website with authentication, cart system and responsive design.
+
+---
+
+### 🚗 ParkMate
+
+Parking Management System built using MERN Stack.
+
+---
+
+### 📋 Task Manager
+
+Task Management Application with JWT Authentication and CRUD Operations.
+
+---
+
+### 🔐 Authentication System
+
+Secure Login & Registration using JWT, Express and MongoDB.
+
+---
+
+# 📈 GitHub Analytics
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=wasaya33&show_icons=true&theme=tokyonight"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=wasaya33&show_icons=true&theme=tokyonight"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wasaya33&layout=compact&theme=tokyonight"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wasaya33&layout=compact&theme=tokyonight"/>
+
+</p>
+
+<p align="center">
 
 <img src="https://streak-stats.demolab.com?user=wasaya33&theme=tokyonight"/>
 
@@ -91,12 +110,37 @@ Parking management web application.
 
 ---
 
-## 🌐 Connect With Me
+# 🌍 Connect With Me
 
-- 📧 Email: **awasaya058@gmail.com**
-- 💼 LinkedIn: *(Add your LinkedIn URL here)*
-- 🌐 Portfolio: *(Coming Soon)*
+<p>
+
+<a href="https://linkedin.com/in/YOUR-LINKEDIN">
+<img src="https://skillicons.dev/icons?i=linkedin" />
+</a>
+
+<a href="mailto:awasaya058@gmail.com">
+<img src="https://skillicons.dev/icons?i=gmail" />
+</a>
+
+<a href="https://github.com/wasaya33">
+<img src="https://skillicons.dev/icons?i=github" />
+</a>
+
+</p>
 
 ---
 
-⭐ Thanks for visiting my profile!
+# 💻 Currently Working On
+
+- 🚀 Smart Hostel Hunt
+- 🌐 Portfolio Website
+- 📚 Learning Next.js
+- ☁️ Exploring AWS
+
+---
+
+<p align="center">
+
+### ⭐ "Code • Learn • Build • Repeat"
+
+</p>
