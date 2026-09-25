@@ -4,7 +4,7 @@
 
 <p>
   <img src="https://img.shields.io/github/followers/wasaya33?label=Followers&style=flat-square&color=6366F1&labelColor=1a1b27" />
-  <img src="https://img.shields.io/badge/Open%20to-Work-6366F1?style=flat-square&labelColor=1a1b27" />
+  <img src="https://img.shields.io/badge/Open%20to-Freelance%20%7C%20Full--Time%20%7C%20Remote-6366F1?style=flat-square&labelColor=1a1b27" />
   <img src="https://komarev.com/ghpvc/?username=wasaya33&style=flat-square&color=6366F1&label=Profile+Views" />
 </p>
 
@@ -34,7 +34,7 @@ learning: [Next.js, Docker, AWS]
 mindset: "Ideas are cheap — I like shipping the ones that actually work."
 ```
 
-- 🔭 Building **Smart Hostel Hunt** — a MERN platform for student housing
+- ✅ Shipped **Smart Hostel Hunt** — a completed MERN platform for student housing
 - 🌱 Leveling up with **Next.js, Docker & AWS**
 - 🤝 Open to freelance work, collaborations & full-time roles
 - ⚡ Fast learner, comfortable owning a feature end-to-end (frontend → API → DB)
@@ -51,68 +51,73 @@ mindset: "Ideas are cheap — I like shipping the ones that actually work."
 
 <br>
 
-## 🚀 Featured Projects
+## ⭐ Flagship Project
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="100%" valign="top">
 
-### 🏨 Smart Hostel Hunt
-MERN platform helping students find hostels near universities — filtering, map view, bookings & reviews.
-
-`React` `Node.js` `Express` `MongoDB`
-
-🔗 [View Repo](https://github.com/wasaya33)
-
-</td>
-<td width="50%" valign="top">
-
-### 🛒 Shopping Store
-Modern e-commerce app with auth, cart system, and a fully responsive UI.
+### 🏨 Smart Hostel Hunt — ✅ Completed
+A MERN platform helping students find hostels near their university — search & filtering, map view, bookings, and reviews, built end-to-end from schema design to deployment.
 
 `React` `Node.js` `Express` `MongoDB`
 
-🔗 [View Repo](https://github.com/wasaya33)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🚗 ParkMate
-Parking management system for tracking slots, bookings & availability in real time.
-
-`MERN Stack`
-
-🔗 [View Repo](https://github.com/wasaya33)
-
-</td>
-<td width="50%" valign="top">
-
-### 📋 Task Manager
-Task management app with JWT authentication and full CRUD operations.
-
-`React` `Node.js` `Express` `MongoDB`
-
-🔗 [View Repo](https://github.com/wasaya33)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" colspan="2">
-
-### 🔐 Authentication System
-Secure login & registration boilerplate using JWT, Express and MongoDB — reused across projects.
-
-`Node.js` `Express` `JWT` `MongoDB`
-
-🔗 [View Repo](https://github.com/wasaya33)
+🔗 **Repo:** _add your Smart Hostel Hunt repo link here_
 
 </td>
 </tr>
 </table>
 
-> 💡 Point each "View Repo" link to the actual repo URL (e.g. `github.com/wasaya33/smart-hostel-hunt`) once you're ready.
+<br>
+
+## 🚀 Other Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🛒 Shopping Store
+E-commerce app with user auth, a persistent cart system, and a fully responsive UI across devices.
+
+`React` `Node.js` `Express` `MongoDB`
+
+🔗 [View Repo](https://github.com/wasaya33/Shoping_Store)
+
+</td>
+<td width="50%" valign="top">
+
+### 🚗 ParkMate
+Parking management system for tracking slot availability and bookings in real time.
+
+`MERN Stack`
+
+🔗 [View Repo](https://github.com/wasaya33/parkmate)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📋 Task Manager
+Task management app with JWT-based authentication and full CRUD operations for tasks.
+
+`React` `Node.js` `Express` `MongoDB`
+
+🔗 [View Repo](https://github.com/wasaya33/Task_Manager)
+
+</td>
+<td width="50%" valign="top">
+
+### 🔐 Authentication System
+Reusable login & registration boilerplate using JWT, Express and MongoDB — dropped into new projects as a starting point.
+
+`Node.js` `Express` `JWT` `MongoDB`
+
+🔗 [View Repo](https://github.com/wasaya33/JWT_auth)
+
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -125,7 +130,7 @@ Secure login & registration boilerplate using JWT, Express and MongoDB — reuse
 
 <img src="https://streak-stats.demolab.com?user=wasaya33&theme=radical&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=wasaya33&theme=redical&bg_color=0d1117&color=6366F1&line=6366F1&point=ffffff&hide_border=true" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=wasaya33&theme=radical&bg_color=0d1117&color=6366F1&line=6366F1&point=ffffff&hide_border=true" width="100%" />
 
 </div>
 
@@ -135,7 +140,6 @@ Secure login & registration boilerplate using JWT, Express and MongoDB — reuse
 
 | Status | Item |
 |---|---|
-| 🚀 | **Smart Hostel Hunt** — polishing booking flow & maps integration |
 | 🌐 | Personal Portfolio Website |
 | 📚 | Learning **Next.js** (App Router, Server Components) |
 | ☁️ | Exploring **Docker & AWS** for deployment & DevOps basics |
