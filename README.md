@@ -1,168 +1,61 @@
-<div align="center">
+name: Update Profile Stats
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Allah+Wasaya;Full+Stack+MERN+Developer;Building+Scalable+Web+Apps;Open+to+Work+%F0%9F%9A%80" alt="Typing SVG" />
+on:
+  schedule:
+    - cron: "0 */3 * * *"   # every 3 hours
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/update-stats.yml"
 
-<p>
-  <img src="https://img.shields.io/github/followers/wasaya33?label=Followers&style=flat-square&color=6366F1&labelColor=1a1b27" />
-  <img src="https://img.shields.io/badge/Open%20to-Freelance%20%7C%20Full--Time%20%7C%20Remote-6366F1?style=flat-square&labelColor=1a1b27" />
-  <img src="https://komarev.com/ghpvc/?username=wasaya33&style=flat-square&color=6366F1&label=Profile+Views" />
-</p>
+permissions:
+  contents: write
 
-<p>
-  <a href="https://www.linkedin.com/in/allah-wasaya-173aa5278/">
-    <img src="https://img.shields.io/badge/LinkedIn-1a1b27?style=for-the-badge&logo=linkedin&logoColor=6366F1" />
-  </a>
-  <a href="mailto:awasaya058@gmail.com">
-    <img src="https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=6366F1" />
-  </a>
-  <a href="https://github.com/wasaya33">
-    <img src="https://img.shields.io/badge/GitHub-1a1b27?style=for-the-badge&logo=github&logoColor=6366F1" />
-  </a>
-</p>
+concurrency:
+  group: update-stats
+  cancel-in-progress: true
 
-</div>
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
-<br>
+      - name: Fetch stat cards
+        run: |
+          mkdir -p assets
+          USER_NAME="wasaya33"
 
-## 🧭 About Me
+          fetch() {
+            local url="$1" out="$2" tmp="assets/$2.tmp"
+            if curl -fsSL --retry 3 --retry-delay 10 --max-time 90 \
+                 -A "Mozilla/5.0" "$url" -o "$tmp" \
+               && [ "$(wc -c < "$tmp")" -gt 1000 ] \
+               && grep -q "<svg" "$tmp" \
+               && ! grep -qiE "something went wrong|error fetching|rate limit|user not found|could not fetch" "$tmp"; then
+              mv "$tmp" "assets/$out"
+              echo "Updated $out"
+            else
+              echo "::warning::Could not refresh $out - keeping previous version"
+              rm -f "$tmp"
+            fi
+          }
 
-```yaml
-name: Allah Wasaya
-role: Full Stack (MERN) Developer
-location: Pakistan
-learning: [Next.js, Docker, AWS]
-mindset: "Ideas are cheap — I like shipping the ones that actually work."
-```
+          fetch "https://streak-stats.demolab.com/?user=${USER_NAME}&theme=radical&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1" streak.svg
+          fetch "https://github-readme-stats.vercel.app/api?username=${USER_NAME}&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=6366F1&icon_color=6366F1" stats.svg
+          fetch "https://github-readme-stats.vercel.app/api/top-langs/?username=${USER_NAME}&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=6366F1" top-langs.svg
+          fetch "https://github-readme-activity-graph.vercel.app/graph?username=${USER_NAME}&theme=radical&bg_color=0d1117&color=6366F1&line=6366F1&point=ffffff&hide_border=true" activity.svg
 
-- ✅ Shipped **Smart Hostel Hunt** — a completed MERN platform for student housing
-- 🌱 Leveling up with **Next.js, Docker & AWS**
-- 🤝 Open to freelance work, collaborations & full-time roles
-- ⚡ Fast learner, comfortable owning a feature end-to-end (frontend → API → DB)
-
-<br>
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,js,html,css,tailwind,bootstrap,materialui,nodejs,express,mongodb,firebase,cpp,git,github,vscode,postman,docker,aws,vercel,netlify&theme=dark" />
-
-</div>
-
-<br>
-
-## ⭐ Flagship Project
-
-<table>
-<tr>
-<td width="100%" valign="top">
-
-### 🏨 Smart Hostel Hunt — ✅ Completed
-A MERN platform helping students find hostels near their university — search & filtering, map view, bookings, and reviews, built end-to-end from schema design to deployment.
-
-`React` `Node.js` `Express` `MongoDB`
-
-🔗 **Repo:** _add your Smart Hostel Hunt repo link here_
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## 🚀 Other Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🛒 Shopping Store
-E-commerce app with user auth, a persistent cart system, and a fully responsive UI across devices.
-
-`React` `Node.js` `Express` `MongoDB`
-
-🔗 [View Repo](https://github.com/wasaya33/Shoping_Store)
-
-</td>
-<td width="50%" valign="top">
-
-### 🚗 ParkMate
-Parking management system for tracking slot availability and bookings in real time.
-
-`MERN Stack`
-
-🔗 [View Repo](https://github.com/wasaya33/parkmate)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📋 Task Manager
-Task management app with JWT-based authentication and full CRUD operations for tasks.
-
-`React` `Node.js` `Express` `MongoDB`
-
-🔗 [View Repo](https://github.com/wasaya33/Task_Manager)
-
-</td>
-<td width="50%" valign="top">
-
-### 🔐 Authentication System
-Reusable login & registration boilerplate using JWT, Express and MongoDB — dropped into new projects as a starting point.
-
-`Node.js` `Express` `JWT` `MongoDB`
-
-🔗 [View Repo](https://github.com/wasaya33/JWT_auth)
-
-</td>
-</tr>
-</table>
-
-<br>
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=wasaya33&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=6366F1&icon_color=6366F1" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wasaya33&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=6366F1" />
-
-<img src="https://streak-stats.demolab.com?user=wasaya33&theme=radical&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=wasaya33&theme=radical&bg_color=0d1117&color=6366F1&line=6366F1&point=ffffff&hide_border=true" width="100%" />
-
-</div>
-
-<br>
-
-## 💻 Currently Working On
-
-| Status | Item |
-|---|---|
-| 🌐 | Personal Portfolio Website |
-| 📚 | Learning **Next.js** (App Router, Server Components) |
-| ☁️ | Exploring **Docker & AWS** for deployment & DevOps basics |
-
-<br>
-
-<div align="center">
-
-### 📫 Let's Connect
-
-<a href="https://www.linkedin.com/in/allah-wasaya-173aa5278/">
-  <img src="https://skillicons.dev/icons?i=linkedin" />
-</a>
-<a href="mailto:awasaya058@gmail.com">
-  <img src="https://skillicons.dev/icons?i=gmail" />
-</a>
-<a href="https://github.com/wasaya33">
-  <img src="https://skillicons.dev/icons?i=github" />
-</a>
-
-<br><br>
-
-**"Code • Learn • Build • Repeat"** ⭐
-
-</div>
-
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: refresh profile stat cards"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          fi
