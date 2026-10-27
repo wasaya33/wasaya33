@@ -128,7 +128,7 @@ Reusable login & registration boilerplate using JWT, Express and MongoDB — dro
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=wasaya33&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=6366F1&icon_color=6366F1" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wasaya33&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=6366F1" />
 
-<img src="https://streak-stats.demolab.com?user=wasaya33&theme=radical&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1" />
+<img src="https://streak-stats.demolab.com?user=wasaya33&theme=radical&hide_border=true&background=0D1117&ring=6366F1&fire=6366F1&timezone=Asia%2FKarachi" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=wasaya33&theme=radical&bg_color=0d1117&color=6366F1&line=6366F1&point=ffffff&hide_border=true" width="100%" />
 
