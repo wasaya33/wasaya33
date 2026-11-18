@@ -34,6 +34,7 @@ learning: [Next.js, Docker, AWS]
 mindset: "Ideas are cheap — I like shipping the ones that actually work."
 ```
 
+- 🏥 Building **MediFlow** — a multi-tenant medical billing SaaS with **TypeScript, Next.js & Prisma**
 - ✅ Shipped **Smart Hostel Hunt** — a completed MERN platform for student housing
 - 🌱 Leveling up with **Next.js, Docker & AWS**
 - 🤝 Open to freelance work, collaborations & full-time roles
@@ -45,24 +46,32 @@ mindset: "Ideas are cheap — I like shipping the ones that actually work."
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,js,html,css,tailwind,bootstrap,materialui,nodejs,express,mongodb,firebase,cpp,git,github,vscode,postman,docker,aws,vercel,netlify&theme=dark" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,tailwind,bootstrap,materialui,nodejs,express,mongodb,prisma,firebase,cpp,git,github,vscode,postman,docker,aws,vercel,netlify&theme=dark" />
 
 </div>
 
 <br>
 
-## ⭐ Flagship Project
+## ⭐ Featured Projects
 
 <table>
 <tr>
-<td width="100%" valign="top">
+<td width="50%" valign="top">
+
+### 🏥 MediFlow — 🚧 In Active Development
+A multi-tenant SaaS platform for medical billing & revenue cycle management — tenant-isolated data, role-based access control across 6 roles, audit logging, and modules for patients, providers, insurance, appointments, and encounters, backed by a typed Express 5 + Prisma API with Zod validation.
+
+`Next.js` `TypeScript` `Express` `Prisma` `MongoDB` `Tailwind`
+
+🔗 [View Repo](https://github.com/wasaya33/mediflow)
+
+</td>
+<td width="50%" valign="top">
 
 ### 🏨 Smart Hostel Hunt — ✅ Completed
 A MERN platform helping students find hostels near their university — search & filtering, map view, bookings, and reviews, built end-to-end from schema design to deployment.
 
 `React` `Node.js` `Express` `MongoDB`
-
-🔗 **Repo:** _add your Smart Hostel Hunt repo link here_
 
 </td>
 </tr>
@@ -80,8 +89,6 @@ A MERN platform helping students find hostels near their university — search &
 E-commerce app with user auth, a persistent cart system, and a fully responsive UI across devices.
 
 `React` `Node.js` `Express` `MongoDB`
-
-🔗 [View Repo](https://github.com/wasaya33/Shoping_Store)
 
 </td>
 <td width="50%" valign="top">
@@ -140,6 +147,7 @@ Reusable login & registration boilerplate using JWT, Express and MongoDB — dro
 
 | Status | Item |
 |---|---|
+| 🏥 | **MediFlow** — medical billing SaaS (multi-tenant, RBAC, TypeScript) |
 | 🌐 | Personal Portfolio Website |
 | 📚 | Learning **Next.js** (App Router, Server Components) |
 | ☁️ | Exploring **Docker & AWS** for deployment & DevOps basics |
